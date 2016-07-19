@@ -1,0 +1,46 @@
+/** 
+
+Theme Name: Beth C Wright
+Description: This is a child theme for Flatsome
+Author: Reach Maine
+Author URI: http: //www.reachmaine.com
+Template: flatsome
+Version: 1.8
+
+*/
+ @import url("../flatsome/css/foundation.css");
+ /* =Theme customization starts here */
+@import "partials/settings";
+@import "partials/print";
+ 
+ .catalog-mode-header .social-icons .icon {
+ 	border-color: #FFFFFF;
+ 	color:  #FFFFFF;
+ 	background-color: $facebook-blue;
+ 	.icon-facebook {
+ 		color: #FFFFFF;
+ 	}
+
+ }
+.blog_shortcode_text .from_the_blog_comments {
+	display: none;
+	visibility: hidden;
+}
+
+aside.widget.widget_recent_entries {
+	li {
+		padding-bottom: 15px;
+	}
+}
+
+blockquote p {
+	color: #5d5d5d;
+}
+
+.copyright-footer {
+  color: #000000;
+}
+
+.absolute-footer {
+	color: #000000;
+}

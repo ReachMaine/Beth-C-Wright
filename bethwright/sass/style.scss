@@ -1,4 +1,4 @@
-/** 
+/**
 
 Theme Name: Beth C Wright
 Description: This is a child theme for Flatsome
@@ -12,7 +12,7 @@ Version: 1.8
  /* =Theme customization starts here */
 @import "partials/settings";
 @import "partials/print";
- 
+
  .catalog-mode-header .social-icons .icon {
  	border-color: #FFFFFF;
  	color:  #FFFFFF;
@@ -43,4 +43,9 @@ blockquote p {
 
 .absolute-footer {
 	color: #000000;
+}
+
+// post date box on slider (homepage, archive & single post)\
+.entry-image .post-date {
+	display: none;
 }

@@ -1,0 +1,79 @@
+/**
+
+Theme Name: Beth C Wright
+Description: This is a child theme for Flatsome
+Author: Reach Maine
+Author URI: http: //www.reachmaine.com
+Template: flatsome
+Version: 1.8
+
+*/
+@import url("../flatsome/css/foundation.css");
+/* =Theme customization starts here */
+/* Colors ---------------------------------------------- */
+/* Typography ------------------------------------------ */
+h1 {
+  font-size: 24px; }
+
+.message-box.dark h1, .message-box.dark h2, .message-box.dark h3, .message-box.dark h4, .message-box.dark h5, .message-box.dark h6 {
+  text-shadow: 1px 1px #A8A8A8; }
+
+#masthead.site-header #logo a img {
+  max-height: 180px !important; }
+
+#masthead.stuck.move_down #logo a img {
+  max-height: 60px !important; }
+
+#menu-top-nav li a {
+  color: #000; }
+
+.tribe-events-abbr.updated {
+  display: block; }
+
+.tribe-events-tooltip .entry-summary.description {
+  margin-top: 0px; }
+.tribe-events-tooltip .tribe-events-abbr.dtstart {
+  float: left; }
+
+.tribe-events-meta-group dt {
+  float: left;
+  clear: left;
+  width: 60px;
+  text-align: right;
+  padding-right: 3px;
+  line-height: 20px !important;
+  margin-bottom: 0px; }
+.tribe-events-meta-group dd {
+  line-height: 20px !important; }
+
+/* Welcome to Compass. Use this file to define print styles.
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+@media print {
+  body a[href]:after {
+    content: ""; } }
+.catalog-mode-header .social-icons .icon {
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+  background-color: #3a589d; }
+  .catalog-mode-header .social-icons .icon .icon-facebook {
+    color: #FFFFFF; }
+
+.blog_shortcode_text .from_the_blog_comments {
+  display: none;
+  visibility: hidden; }
+
+aside.widget.widget_recent_entries li {
+  padding-bottom: 15px; }
+
+blockquote p {
+  color: #5d5d5d; }
+
+.copyright-footer {
+  color: #000000; }
+
+.absolute-footer {
+  color: #000000; }
+
+.entry-image .post-date {
+  display: none; }

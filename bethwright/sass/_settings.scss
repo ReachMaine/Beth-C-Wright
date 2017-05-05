@@ -4,9 +4,9 @@ $linkcolor: #a62425;
 $titleFontColor: #a62425;
 $facebook-blue: #3a589d;
 
-// Background colors: 
+// Background colors:
 
-$bkgoundContent: #FFFFFF; // 
+$bkgoundContent: #FFFFFF; //
 $menuBarbkg: #D14719; //
 
 /* Typography ------------------------------------------ */
@@ -30,7 +30,7 @@ h1 {
 
 	}
 
-}	
+}
 
 // menu stuff
 
@@ -49,7 +49,7 @@ h1 {
 	}
 }
 
-// events stuff 
+// events stuff
  .tribe-events-abbr.updated {
 	display: block;
 }
@@ -80,4 +80,9 @@ h1 {
     // padding: 0 0 0.5em 0;
     line-height: 20px!important;
   }
+}
+
+// post date box on slider (homepage, archive & single post)\
+.entry-image .post-date {
+	display: none;
 }

@@ -46,6 +46,9 @@ h1 {
 .tribe-events-meta-group dd {
   line-height: 20px !important; }
 
+.tribe_mini_calendar_widget .tribe-mini-calendar-list-wrapper .tribe-event-featured .tribe-mini-calendar-event {
+  background: none; }
+
 /* Welcome to Compass. Use this file to define print styles.
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */

@@ -1,0 +1,20 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+.header-main {
+    background-image: url(https://www.bethwrightcancercenter.org/wp-content/uploads/2014/09/header_image1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}

@@ -1,0 +1,40 @@
+// events stuff
+ .tribe-events-abbr.updated {
+	display: block;
+}
+.tribe-events-tooltip {
+	.entry-summary.description{
+		margin-top: 0px;
+	}
+	.tribe-events-abbr.dtstart {
+		float: left;
+	}
+}
+.tribe-events-meta-group {
+  dt {
+    float: left;
+    clear: left;
+    width: 60px;
+    text-align: right;
+    // font-weight: bold;
+    padding-right: 3px;
+    line-height: 20px!important;
+    margin-bottom: 0px;
+  }
+  dt:after {
+   //content: " ";
+  }
+  dd {
+    //margin: 0 0 0 110px;
+    // padding: 0 0 0.5em 0;
+    line-height: 20px!important;
+  }
+}
+// calendar widget (on homepage)
+.tribe_mini_calendar_widget {
+	.tribe-mini-calendar-list-wrapper .tribe-event-featured {
+		.tribe-mini-calendar-event {
+			background: none; // let gold show through
+		}
+	}
+}

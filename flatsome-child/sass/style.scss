@@ -7,10 +7,42 @@ Version: 3.0
 */
 
 /*************** ADD CUSTOM CSS HERE.   ***************/
-.header-main {
+@import "partials/settings";
+@import "partials/tribe-events";
+#masthead.header-main {
+  // add background image
     background-image: url(https://www.bethwrightcancercenter.org/wp-content/uploads/2014/09/header_image1.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    // center the text in the "left-links"
+    .header-inner {
+      .header-nav.header-nav-main.nav.nav-left {
+        justify-content: center;
+
+      }
+      .header-nav.header-nav-main.nav.nav-right {
+
+      }
+      .header-social-icons {
+        .social-icons{
+          a {
+            border: 2px solid white!important;
+          }
+          a:hover {
+            border-color: transparent!important;
+          }
+        }
+      }
+    }
+}
+
+#footer {
+  .absolute-footer {
+    color: #000;
+    .footer-secondary {
+      padding: 0px; // line up copyright & secondary html
+    }
+  }
 }
 
 @media only screen and (max-width: 48em) {

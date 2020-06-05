@@ -8,7 +8,7 @@ Version: 3.0
 
 /*************** ADD CUSTOM CSS HERE.   ***************/
 @import "partials/settings";
-@import "partials/tribe-events";
+
 #masthead.header-main {
   // add background image
     background-image: url(https://www.bethwrightcancercenter.org/wp-content/uploads/2014/09/header_image1.jpg);
@@ -35,6 +35,28 @@ Version: 3.0
       }
     }
 }
+#content {
+  header.entry-header {
+    h1.entry-title.uppercase {
+      text-transform: none!important;
+    }
+  }
+}
+// blog archive
+#content.blog-archive {
+  .col.post-item {
+    .col-inner {
+      border: 1px solid #eee;
+    }
+  }
+  .col.post-item:hover  {
+    .col-inner {
+      -webkit-box-shadow: 0px 0px 19px 0px rgba(50, 50, 50, 0.33);
+      -moz-box-shadow: 0px 0px 19px 0px rgba(50, 50, 50, 0.33);
+      box-shadow: 0px 0px 19px 0px rgba(50, 50, 50, 0.33);
+     }
+  }
+} // blog archive
 
 #footer {
   .absolute-footer {
@@ -44,7 +66,8 @@ Version: 3.0
     }
   }
 }
-
+@import "partials/tribe-events";
+@import "partials/testimonials.scss";
 @media only screen and (max-width: 48em) {
 /*************** ADD MOBILE ONLY CSS HERE  ***************/
 

@@ -2,9 +2,17 @@
 // Font Colors
 $linkcolor: #a62425;
 $titleFontColor: #a62425;
+$bwcc-blue: #446084;
+$bwcc-ltr-blue: #587dad;
 $facebook-blue: #3a589d;
 
 // general stuff
-blockquote p {
-  color: #a2a2a2;
+blockquote.testimonials-text,
+blockquote {
+  font-size: 1.0em;
+  line-height: 1.4em;
+  p {
+    //color: #a2a2a2;
+    color: $bwcc-ltr-blue;
+  }
 }

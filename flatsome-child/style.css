@@ -5,12 +5,67 @@ Author: UX Themes
 Template: flatsome
 Version: 3.0
 */
-
 /*************** ADD CUSTOM CSS HERE.   ***************/
+/* Colors ---------------------------------------------- */
+blockquote.testimonials-text,
+blockquote {
+  font-size: 1.0em;
+  line-height: 1.4em; }
+  blockquote.testimonials-text p,
+  blockquote p {
+    color: #587dad; }
 
+#masthead.header-main {
+  background-image: url(https://www.bethwrightcancercenter.org/wp-content/uploads/2014/09/header_image1.jpg);
+  background-repeat: no-repeat;
+  background-position: center; }
+  #masthead.header-main .header-inner .header-nav.header-nav-main.nav.nav-left {
+    justify-content: center; }
+  #masthead.header-main .header-inner .header-social-icons .social-icons a {
+    border: 2px solid white !important; }
+  #masthead.header-main .header-inner .header-social-icons .social-icons a:hover {
+    border-color: transparent !important; }
+
+#content header.entry-header h1.entry-title.uppercase {
+  text-transform: none !important; }
+
+#content.blog-archive .col.post-item .col-inner {
+  border: 1px solid #eee; }
+#content.blog-archive .col.post-item:hover .col-inner {
+  -webkit-box-shadow: 0px 0px 19px 0px rgba(50, 50, 50, 0.33);
+  -moz-box-shadow: 0px 0px 19px 0px rgba(50, 50, 50, 0.33);
+  box-shadow: 0px 0px 19px 0px rgba(50, 50, 50, 0.33); }
+
+#footer .absolute-footer {
+  color: #000; }
+  #footer .absolute-footer .footer-secondary {
+    padding: 0px; }
+
+.tribe-events-abbr.updated {
+  display: block; }
+
+.tribe-events-tooltip .entry-summary.description {
+  margin-top: 0px; }
+.tribe-events-tooltip .tribe-events-abbr.dtstart {
+  float: left; }
+
+.tribe-events-meta-group dt {
+  float: left;
+  clear: left;
+  width: 60px;
+  text-align: right;
+  padding-right: 3px;
+  line-height: 20px !important;
+  margin-bottom: 0px; }
+.tribe-events-meta-group dd {
+  line-height: 20px !important; }
+
+.tribe_mini_calendar_widget .tribe-mini-calendar-list-wrapper .tribe-event-featured .tribe-mini-calendar-event {
+  background: none; }
+
+.widget_woothemes_testimonials .testimonials blockquote.testimonials-text {
+  font-size: 1.0em;
+  line-height: 1.4em; }
 
 @media only screen and (max-width: 48em) {
-/*************** ADD MOBILE ONLY CSS HERE  ***************/
-
-
-}
+  /*************** ADD MOBILE ONLY CSS HERE  ***************/ }

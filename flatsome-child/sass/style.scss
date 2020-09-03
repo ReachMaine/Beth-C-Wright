@@ -68,6 +68,10 @@ Version: 3.0
 }
 @import "partials/tribe-events";
 @import "partials/testimonials.scss";
+// css to make thermometer fix into a column -
+#neoncrm-preview #neoncrm-fundraising-widget{
+  width: inherit!important;
+}
 @media only screen and (max-width: 48em) {
 /*************** ADD MOBILE ONLY CSS HERE  ***************/
 

@@ -1,0 +1,41 @@
+/* gravity forms styling */
+.gform_wrapper {
+	.gform_fields  { // ul
+		.gfield {
+			.gfield_label {
+				//color: $hcc-dark-blue;
+				//font-size: 20px;
+				border-bottom: 0px;
+			}
+			.ginput_container.ginput_container_radio {
+				input {
+					margin-bottom: 0px; // flatsome put margin at the bottom of input that messes with gform radio buttons (and checkboxes?)
+				}
+			}
+
+		}
+
+	}
+	.gfield.hide-label label {
+		display: none;
+	}
+	.gform_footer {
+		display: flex;
+		justify-content: flex-end; // put button on right
+
+		input[type=submit] { //  Make submit look like buttons on the site.
+				color: $form-button-color;
+		    padding: 6px 20px;
+		    border-width: 0px;
+		    font-size: 20px!important;
+		    text-align: center;
+		    cursor: pointer;
+			  background-color: $form-button-bkg;
+			  //line-height: 1.7em;
+			}
+			input[type=submit]:hover {
+				background-color: $form-button-hover-bkg;
+				color: $form-button-hover-color;
+			}
+	} // gform footer
+} // gform wrapper

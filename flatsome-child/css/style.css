@@ -15,6 +15,28 @@ blockquote {
   blockquote p {
     color: #587dad; }
 
+/* gravity forms styling */
+.gform_wrapper .gform_fields .gfield .gfield_label {
+  border-bottom: 0px; }
+.gform_wrapper .gform_fields .gfield .ginput_container.ginput_container_radio input {
+  margin-bottom: 0px; }
+.gform_wrapper .gfield.hide-label label {
+  display: none; }
+.gform_wrapper .gform_footer {
+  display: flex;
+  justify-content: flex-end; }
+  .gform_wrapper .gform_footer input[type=submit] {
+    color: white;
+    padding: 6px 20px;
+    border-width: 0px;
+    font-size: 20px !important;
+    text-align: center;
+    cursor: pointer;
+    background-color: #446084; }
+  .gform_wrapper .gform_footer input[type=submit]:hover {
+    background-color: #1e73be;
+    color: white; }
+
 #masthead.header-main {
   background-image: url(https://www.bethwrightcancercenter.org/wp-content/uploads/2014/09/header_image1.jpg);
   background-repeat: no-repeat;

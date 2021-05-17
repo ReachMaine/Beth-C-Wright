@@ -18,7 +18,8 @@ blockquote {
 /* gravity forms styling */
 .gform_wrapper .gform_fields .gfield .gfield_label {
   border-bottom: 0px; }
-.gform_wrapper .gform_fields .gfield .ginput_container.ginput_container_radio input {
+.gform_wrapper .gform_fields .gfield .ginput_container.ginput_container_radio input,
+.gform_wrapper .gform_fields .gfield .ginput_container.ginput_container_consent input {
   margin-bottom: 0px; }
 .gform_wrapper .gfield.hide-label label {
   display: none; }

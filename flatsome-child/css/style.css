@@ -37,6 +37,12 @@ blockquote {
   .gform_wrapper .gform_footer input[type=submit]:hover {
     background-color: #1e73be;
     color: white; }
+.gform_wrapper .cm-hipaa-forms-prepend-bottom .cm-hipaa-forms-ssl-notice {
+  margin-top: 0px; }
+.gform_wrapper .cm-hipaa-forms-prepend-bottom .cm-hipaa-forms-submit-wrapper .cm-hipaa-forms-submit.cm-hipaa-forms-button.active {
+  background-color: #446084; }
+.gform_wrapper .cm-hipaa-forms-prepend-bottom .cm-hipaa-forms-submit-wrapper .cm-hipaa-forms-submit.cm-hipaa-forms-button.active:hover {
+  background-color: #1e73be; }
 
 #masthead.header-main {
   background-image: url(https://www.bethwrightcancercenter.org/wp-content/uploads/2014/09/header_image1.jpg);

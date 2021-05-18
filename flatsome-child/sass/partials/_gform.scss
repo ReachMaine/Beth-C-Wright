@@ -39,4 +39,17 @@
 				color: $form-button-hover-color;
 			}
 	} // gform footer
+	.cm-hipaa-forms-prepend-bottom {
+			.cm-hipaa-forms-ssl-notice {
+				margin-top: 0px; // too much spacing for empty div 
+			}
+			.cm-hipaa-forms-submit-wrapper {
+				.cm-hipaa-forms-submit.cm-hipaa-forms-button.active {
+					  background-color: $form-button-bkg;
+				}
+				.cm-hipaa-forms-submit.cm-hipaa-forms-button.active:hover {
+						background-color: $form-button-hover-bkg;
+				}
+			}
+	}  // hippa bottom
 } // gform wrapper

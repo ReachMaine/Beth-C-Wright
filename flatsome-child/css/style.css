@@ -15,6 +15,11 @@ blockquote {
   blockquote p {
     color: #587dad; }
 
+.bcw-image-boxshadow {
+  -webkit-box-shadow: 0px 0px 19px 0px rgba(50, 50, 50, 0.33);
+  -moz-box-shadow: 0px 0px 19px 0px rgba(50, 50, 50, 0.33);
+  box-shadow: 0px 0px 19px 0px rgba(50, 50, 50, 0.33); }
+
 /* gravity forms styling */
 .gform_wrapper .gform_fields .gfield .gfield_label {
   border-bottom: 0px; }

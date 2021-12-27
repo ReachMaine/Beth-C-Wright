@@ -94,8 +94,19 @@ blockquote {
 .tribe-events-meta-group dd {
   line-height: 20px !important; }
 
+.tribe_mini_calendar_widget .tribe-mini-calendar-list-wrapper .tribe-mini-calendar-event .list-date {
+  display: none; }
+.tribe_mini_calendar_widget .tribe-mini-calendar-list-wrapper .tribe-mini-calendar-event .list-info {
+  width: 95%; }
+  .tribe_mini_calendar_widget .tribe-mini-calendar-list-wrapper .tribe-mini-calendar-event .list-info .tribe-events-title {
+    margin-bottom: 0px;
+    font-size: 15px; }
 .tribe_mini_calendar_widget .tribe-mini-calendar-list-wrapper .tribe-event-featured .tribe-mini-calendar-event {
-  background: none; }
+  background: none;
+  padding-bottom: 0px; }
+  .tribe_mini_calendar_widget .tribe-mini-calendar-list-wrapper .tribe-event-featured .tribe-mini-calendar-event .list-info {
+    padding-left: 10px;
+    padding-right: 8px; }
 
 .widget_woothemes_testimonials .testimonials blockquote.testimonials-text {
   font-size: 1.0em;

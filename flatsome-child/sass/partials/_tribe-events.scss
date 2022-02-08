@@ -1,5 +1,5 @@
 // events stuff
- .tribe-events-abbr.updated {
+/*  .tribe-events-abbr.updated {
 	display: block;
 }
 .tribe-events-tooltip {
@@ -57,4 +57,70 @@
   		}
     }
 	}
+}
+*/
+// G2 tribe events stuff...
+//
+// calendar mini widget on homepage
+.widget_tribe-widget-events-month {
+  .tribe-common.tribe-events.tribe-events-widget.tribe-events-view--shortcode.tribe-events-widget-events-month {
+    padding: 0px;
+    .tribe-common-l-container {
+      padding-left: 0px;
+      padding-right: 0px;
+      .tribe-events-calendar-month { // the actual mini calendar
+        .tribe-events-calendar-month__day.tribe-events-calendar-month__day--current {
+          time {
+            color: white; // make
+          }
+        }
+        .tribe-events-calendar-month__day.tribe-events-calendar-month__day--current:hover {
+          time {
+            color: #141827; // make
+          }
+        }
+      }
+      .tribe-events-calendar-month-mobile-events { // section for list of events
+          .tribe-events-calendar-month-mobile-events__mobile-event--featured { // featured events
+            background-color: $bwcc-yellow;
+            padding: 6px;
+          }
+          .tribe-events-c-small-cta.tribe-common-b3.tribe-events-calendar-month-mobile-events__mobile-event-cost {
+            display: none;  // hide cost
+          }
+      }
+
+    }
+  }
+}
+
+// calendar  -- events page
+.tribe-events-view--month {
+  .tribe-events-calendar-month__calendar-event.tribe-events-calendar-month__calendar-event--featured {
+    background-color: $bwcc-yellow;
+    padding-top: 6px;
+    padding-left: 6px;
+  }
+  .tribe-events-calendar-month__calendar-event--featured:before {
+    background-color: transparent;
+  }
+}
+
+// single
+// single event V2 styling -
+.single.single-tribe_events {
+  .tribe-events-single-section.tribe-events-event-meta {
+    width: 100%;
+    .tribe-events-meta-group {
+      width: 30%;
+				dt {
+					font-weight: bold;
+          margin-top: 0px;
+          padding-right: 10px;
+				}
+        dd {
+          display: block;
+        }
+    }
+  }
 }

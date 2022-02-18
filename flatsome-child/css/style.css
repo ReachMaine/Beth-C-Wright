@@ -140,10 +140,15 @@ blockquote {
   .widget_tribe-widget-events-month .tribe-common.tribe-events.tribe-events-widget.tribe-events-view--shortcode.tribe-events-widget-events-month .tribe-common-l-container {
     padding-left: 0px;
     padding-right: 0px; }
-    .widget_tribe-widget-events-month .tribe-common.tribe-events.tribe-events-widget.tribe-events-view--shortcode.tribe-events-widget-events-month .tribe-common-l-container .tribe-events-calendar-month .tribe-events-calendar-month__day.tribe-events-calendar-month__day--current time {
-      color: white; }
-    .widget_tribe-widget-events-month .tribe-common.tribe-events.tribe-events-widget.tribe-events-view--shortcode.tribe-events-widget-events-month .tribe-common-l-container .tribe-events-calendar-month .tribe-events-calendar-month__day.tribe-events-calendar-month__day--current:hover time {
-      color: #141827; }
+    .widget_tribe-widget-events-month .tribe-common.tribe-events.tribe-events-widget.tribe-events-view--shortcode.tribe-events-widget-events-month .tribe-common-l-container .tribe-events-calendar-month {
+      border: 1px solid #ddd;
+      border-radius: 3px; }
+      .widget_tribe-widget-events-month .tribe-common.tribe-events.tribe-events-widget.tribe-events-view--shortcode.tribe-events-widget-events-month .tribe-common-l-container .tribe-events-calendar-month .tribe-events-calendar-month__header {
+        background-color: #ddd; }
+      .widget_tribe-widget-events-month .tribe-common.tribe-events.tribe-events-widget.tribe-events-view--shortcode.tribe-events-widget-events-month .tribe-common-l-container .tribe-events-calendar-month .tribe-events-calendar-month__day.tribe-events-calendar-month__day--current time {
+        color: white; }
+      .widget_tribe-widget-events-month .tribe-common.tribe-events.tribe-events-widget.tribe-events-view--shortcode.tribe-events-widget-events-month .tribe-common-l-container .tribe-events-calendar-month .tribe-events-calendar-month__day.tribe-events-calendar-month__day--current:hover time {
+        color: #141827; }
     .widget_tribe-widget-events-month .tribe-common.tribe-events.tribe-events-widget.tribe-events-view--shortcode.tribe-events-widget-events-month .tribe-common-l-container .tribe-events-calendar-month-mobile-events .tribe-events-calendar-month-mobile-events__mobile-event--featured {
       background-color: #f3d42a;
       padding: 6px; }

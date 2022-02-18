@@ -69,6 +69,11 @@
       padding-left: 0px;
       padding-right: 0px;
       .tribe-events-calendar-month { // the actual mini calendar
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        .tribe-events-calendar-month__header {
+          background-color: #ddd;
+        }
         .tribe-events-calendar-month__day.tribe-events-calendar-month__day--current {
           time {
             color: white; // make
